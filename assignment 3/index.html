@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div id="content" >
+            
+        </div>
+        <img id="asset" src="asset/img/img3.png" alt="">
+    </div>
+    <div>
+        <button onclick="myfun1()" >button1</button>
+        <button onclick="myfun2()" >button2</button>
+    </div>
+    <script>
+        const myfun1 = ()=>{
+            var show_img = document.querySelector("#content");
+            show_img.innerHTML = "<img src='asset/img/Img1.png'>"
+        }
+        const myfun2 = () =>{
+            var content = document.querySelector("#content")
+            content.innerHTML = "<img src='asset/img/img2.png'>"
+        }
+    </script>
+</body>
+</html>

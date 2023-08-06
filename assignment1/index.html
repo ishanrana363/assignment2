@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content" >
+        Welcome to ostad platform
+    </div>
+    <button onclick="myfun()" >Change the content</button>
+    <script>
+        const myfun = () =>{
+           var contentid =  document.querySelector("#content")
+           contentid.innerHTML = "<img src='asset/img/img.png'>"
+        }
+    </script>
+</body>
+</html>
